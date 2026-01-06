@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx refactoring.ts"
+    "dev": "tsx src/index.ts",
+    "run": "tsx",
+    "index": "tsx src/index.ts",
+    "refactoring": "tsx src/refactoring.ts"
   },
   "keywords": [],
   "author": "",
